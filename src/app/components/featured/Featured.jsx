@@ -9,7 +9,7 @@ export default function Featured() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nihil necessitatibus iure! Commodi veritatis magnam expedita ipsum
             </h1>
             <div className={styles.post}>
-                <div className={styles.imageContainer}>
+                <div className={styles.imgContainer}>
                     <Image src='/p1.jpeg' alt="" fill className={styles.image} />
                 </div>
                 <div className={styles.textContainer}>
@@ -18,8 +18,9 @@ export default function Featured() {
                     </h2>
                     <p className={styles.postDesc}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ducimus excepturi culpa odio ipsam, inventore, delectus iure dolorem voluptatum quos itaque repudiandae aliquam deleniti modi aspernatur est sint, corporis facilis?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ducimus excepturi culpa odio ipsam, inventore, delectus iure dolorem voluptatum quos itaque repudiandae aliquam deleniti modi aspernatur est sint, corporis facilis?
                     </p>
-                    <button className={styles.postButton}>Read More</button>
+                    <button className={styles.button}>Read More</button>
                 </div>
             </div>
         </div>
