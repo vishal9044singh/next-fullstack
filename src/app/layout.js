@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
             <div className='container'>
               <div className='wrapper'>
                 <Navbar />
+                <hr/>
                 {children}
                 <Footer />
               </div>
