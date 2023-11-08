@@ -1,4 +1,4 @@
-import Menu from '../components/menu/Menu';
+import Menu from '../components/menu/MenuMain';
 import styles from './singlePage.module.css';
 import Comments from '../components/comments/Comments';
 import Image from 'next/image';
@@ -39,7 +39,7 @@ export default function SinglePage() {
                         </p>
                     </div>
                     <div className={styles.comment}>
-                        <Comments/>
+                        <Comments />
                     </div>
                 </div>
                 <Menu />

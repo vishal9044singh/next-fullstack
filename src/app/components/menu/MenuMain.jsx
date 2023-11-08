@@ -1,9 +1,9 @@
 import React from "react";
-import styles from './menu.module.css';
+import styles from './menuMain.module.css';
 import MenuPost from "./menuPost/MenuPost";
 import MenuCategories from "./menuCategories/MenuCategories";
 
-export default function Menu() {
+export default function MenuMain() {
     return (
         <div className={styles.container}>
 
