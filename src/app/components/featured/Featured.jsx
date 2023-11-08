@@ -20,7 +20,7 @@ export default function Featured() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ducimus excepturi culpa odio ipsam, inventore, delectus iure dolorem voluptatum quos itaque repudiandae aliquam deleniti modi aspernatur est sint, corporis facilis?
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ducimus excepturi culpa odio ipsam, inventore, delectus iure dolorem voluptatum quos itaque repudiandae aliquam deleniti modi aspernatur est sint, corporis facilis?
                     </p>
-                    <button className={styles.button}>Read More</button>
+                    <button className={styles.button} >Read More</button>
                 </div>
             </div>
         </div>
