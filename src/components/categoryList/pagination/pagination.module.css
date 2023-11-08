@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: var(--softTextColor);
+}
+
+.button{
+    background-color: crimson;
+    width: 100px;
+    border:none;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(168, 10, 41);
+}

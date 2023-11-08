@@ -1,6 +1,7 @@
-import Menu from '../components/menu/MenuMain';
+// import Menu from '../components/menu/MenuMain';
+import MenuMain from '@/components/menu/MenuMain';
 import styles from './singlePage.module.css';
-import Comments from '../components/comments/Comments';
+import Comments from '@/context/comments/Comments';
 import Image from 'next/image';
 
 export default function SinglePage() {
@@ -42,7 +43,7 @@ export default function SinglePage() {
                         <Comments />
                     </div>
                 </div>
-                <Menu />
+                <MenuMain />
             </div>
         </div>
     )
