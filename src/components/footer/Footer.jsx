@@ -20,7 +20,6 @@ export default function Footer() {
                 <div className={styles.icons}>
                     <Image src='/facebook.png' alt="" width={20} height={20} />
                     <Image src='/instagram.png' alt="" width={20} height={20} />
-                    <Image src='/tiktok.png' alt="" width={20} height={20} />
                     <Image src='/youtube.png' alt="" width={20} height={20} />
                 </div>
             </div>
