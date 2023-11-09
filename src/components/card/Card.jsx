@@ -6,7 +6,7 @@ export default function Card() {
     return (
         <div className={styles.container}>
             <div className={styles.imageContainer}>
-                <Image className={styles.image} src='/p1.jpeg' fill />
+                <Image className={styles.image} src='/p1.jpeg' alt="" fill />
             </div>
             <div className={styles.textContainer}>
                 <div className={styles.details}>
