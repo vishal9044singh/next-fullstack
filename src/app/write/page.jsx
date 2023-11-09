@@ -19,15 +19,15 @@ export default function Write() {
                     <div className={styles.add}>
 
                         <button className={styles.addButton}>
-                            <Image src='/image.png' atl="" width={16} height={16} />
+                            <Image src='/image.png' alt="" width={16} height={16} />
                         </button>
 
                         <button className={styles.addButton}>
-                            <Image src='/external.png' atl="" width={16} height={16} />
+                            <Image src='/external.png' alt="" width={16} height={16} />
                         </button>
 
                         <button className={styles.addButton}>
-                            <Image src='/video.png' atl="" width={16} height={16} />
+                            <Image src='/video.png' alt="" width={16} height={16} />
                         </button>
 
                     </div>
